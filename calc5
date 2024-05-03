@@ -1,0 +1,97 @@
+  int valor1;
+  int valor2;
+
+  printf("insira o primeiro valor");
+  int rep;
+  rep= 10;
+
+while (rep==10){
+
+  printf("insira o primeiro valor\n");
+  scanf("%d", &valor1);
+
+  printf("insira o segundo valor");
+  printf("insira o segundo valor\n");
+  scanf("%d",&valor2);
+
+  int swit;
+
+  printf("escolha o operador:\n 1 = soma \n 2 = subtração\n 3 = divisão\n 4 = multiplicação");
+  printf("escolha o operador:\n 1 = soma \n 2 = subtração\n 3 = divisão\n 4 = multiplicação\n");
+  scanf("%d",&swit);
+
+  int resul_som;
+  void main() {
+  int resul_sub;
+
+  int decis;
+  int rep;
+  rep= 10;
+
+
+  switch(swit){
+
+    case 1:
+    while (rep==10){
+     resul_som= valor1 + valor2;
+     printf("o resultado da soma é: %d + %d =%d", valor1, valor2, resul_som);
+     printf("o resultado da soma é: %d + %d =%d\n", valor1, valor2, resul_som);
+      printf("Quer continuar a executar?\n  1 para sim\n 2 para não\n");
+      scanf("%d", &decis);   
+      if(decis==1){ 
+        rep=10;
+       }else {
+         rep=11;
+         }
+    }
+
+    break;
+
+    case 2:
+    while (rep==10){
+    resul_sub= valor1 - valor2;
+    printf("o resultado da soma é: %d + %d =%d", valor1, valor2, resul_sub);
+    printf("o resultado da subtração é: %d - %d =%d\n", valor1, valor2, resul_sub);
+    printf("Quer continuar a executar?\n  1 para sim\n 2 para não\n");
+      scanf("%d", &decis);   
+      if(decis==1){ 
+        rep=10;
+       }else {
+         rep=11;
+         }
+    }   
+         } 
+    break;
+
+    case 3:
+    while (rep==10){
+    resul_div= valor1 / valor2;
+    printf("o resultado da soma é: %d + %d =%d", valor1, valor2, resul_div);
+    printf("o resultado da divisão é: %d / %d =%d\n", valor1, valor2, resul_div);
+    printf("Quer continuar a executar?\n  1 para sim\n 2 para não\n");
+      scanf("%d", &decis);   
+      if(decis==1){ 
+        rep=10;
+       }else {
+         rep=11;
+         }
+    }
+    break;
+
+    case 4:
+    while (rep==10){
+    resul_mult= valor1 * valor2;
+    printf("o resultado da multiplicação é: %d * %d =%d", valor1, valor2, resul_mult);
+    printf("o resultado da multiplicação é: %d * %d =%d\n", valor1, valor2, resul_mult);
+    printf("Quer continuar a executar?\n  1 para sim\n 2 para não\n");
+      scanf("%d", &decis);   
+      if(decis==1){ 
+        rep=10;
+       }else {
+         rep=11;
+         }
+    }
+    break;
+    }
+  }    
+}
